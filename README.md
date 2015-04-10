@@ -5,7 +5,7 @@ This library will be usefull if only you do not have to do some special things o
 
 There is a type enumeration to inform ListView that which row has which type of widget.
 
-Supported Types for now: TextView, EditText, ImageView (Static & Async)
+Supported Components: TextView, EditText, ImageView (Static & Async)
 
 ```java
 public enum ViewTypes {
@@ -13,7 +13,7 @@ public enum ViewTypes {
 }
 ```
 
-SimpleListAdapter excepts ```ListItem``` so you need to put your data into a ListItem object and then create an array with those objects, finally give it to adapter. 
+SimpleListAdapter expects ```ListItem``` so you need to put your data into a ListItem object and then create an array with those objects, finally give it to adapter. 
 ListItem has two constructor:
 
 1- To display one type items in ListView
