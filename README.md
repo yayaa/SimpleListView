@@ -1,7 +1,9 @@
 SimpleListView
 ==============
 
-**Deprecated: Please consider using RecyclerView instead of listview**
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+**Please consider using RecyclerView instead of listview**
 
 This library will be usefull if only you do not have to do some special things on your ListView but just show some data. Because SimpleListView has its adapter and items, you just need to give it to source ids and the data which it needs to show. 
 
